@@ -11,18 +11,16 @@ grammar C;
     private String format = new String("\r\n\t");
 }
 decls returns [Decls r]
-: decl {$r = new Decls($decl.r);}
-//    : {$r = null;}
-//    | decl decls {
-//        if ($decls.r == null ) $r = new Decls($decl.r);
-//        else { $decls.r.list.addFirst($decl.r); $r = $decls.r; }
-//    }
+    locals [Decls rr]
+    @after{$r = $rr;}
+    : decl {$rr = new Decls($decl.r);} ( decl {$rr.list.addLast( $decl.r ); } )*
     ;
+
 decl returns [Decl r]
     : declaration {$r = $declaration.r;}
     | function_definition {$r = $function_definition.r;}
     ;
-// don't understand
+
 declaration returns [Declar r]
     : type_specifier { $r = new VarDecl($type_specifier.r, null);} ';'
     | type_specifier init_declarators ';' {$r = new VarDecl($type_specifier.r, $init_declarators.r);}
@@ -285,11 +283,8 @@ primary_expression returns [Expr r]
     | StringConstant {$r = new StringConst($StringConstant.text);}
     | '(' expression ')' {$r = $expression.r;}
     ;
-//Constant
-//    :   IntegerConstant
-//    |   CharacterConstant
-//    ;
-WS: [ \t\r\n]+ -> channel(HIDDEN);
+
+WS: [ \t\r\n]+ -> skip;
 
 IntegerConstant
     :   DecimalConstant IntegerSuffix?
@@ -297,7 +292,7 @@ IntegerConstant
     |   HexadecimalConstant IntegerSuffix?
     ;
 
-
+fragment
 DecimalConstant
     :   NonzeroDigit Digit* | '0'
     ;
@@ -413,17 +408,17 @@ PreProcessor
 //comment, not completely comprehended
 COMMENT
     : (TraditionalComment | SingleLineComment | DocumentationComment )
-    ->channel(HIDDEN);
+    ->skip;
 fragment TraditionalComment
-    : '/*' [^*]* '*/';
+    : '/*'  .*? '*/';
 fragment SingleLineComment
     : '//' (InputCharacter)* LineTerm;
 fragment DocumentationComment
     : '/**' CommentContent '*'+ '/';
 fragment InputCharacter
-    : [^\r\n];
+    : ~('\r' | '\n');
 fragment CommentContent
-    : ( [^*] | '*'+ [^/*] )*;
+    : ( ~'*' | '*'+ ~[/*] )*;
 // String
 StringConstant: '"' ScharSequence? '"';
 fragment ScharSequence: SChar+;
