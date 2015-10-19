@@ -1,10 +1,13 @@
-package Syntactic;
+package main;
+import Syntactic.CLexer;
+import Syntactic.CParser;
 import com.google.gson.Gson;
 import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.atn.ParserATNSimulator;
 import org.antlr.v4.runtime.atn.PredictionMode;
 import org.antlr.v4.runtime.tree.*;
 import absyn.*;
+import semantic.*;
 import org.antlr.v4.runtime.tree.gui.TreeViewer;
 
 import javax.print.PrintException;
@@ -32,13 +35,18 @@ public class run {
         CommonTokenStream tokens = new CommonTokenStream(lexer);
 // create a parser that feeds off the tokens buffer
         CParser parser = new CParser(tokens);
-        ParseTree parsetree = parser.decls();
+//        ParseTree parsetree = parser.decls();
         Decls tree = parser.decls().r; // begin parsing at init rule
         Gson gson = new Gson();
         System.out.println(gson.toJson(tree));
-        TreeViewer viewr = new TreeViewer(Arrays.asList(
-                parser.getRuleNames()),parsetree);
-        viewr.open();
+        Semantic semant = new Semantic();
+        semant.checkProg(tree);
+        if(semant.hasError()) {
+            semant.printErrors();
+        }
+//        TreeViewer viewr = new TreeViewer(Arrays.asList(
+//                parser.getRuleNames()),parsetree);
+//        viewr.open();
        // System.out.println(tree.toStringTree(parser)); // print LISP-style tree
     }
 }
