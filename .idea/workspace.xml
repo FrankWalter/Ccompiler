@@ -5,68 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/semantic/Semantic.java" line="278" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d93f1995-3357-4408-86e7-411a7d3ed516" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\C.g4" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\C.tokens" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CBaseListener.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CLexer.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CLexer.tokens" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CListener.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Additive_expressionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$And_expressionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$ArgumentsContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Array_parametersContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Assignment_expressionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Cast_expressionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Compound_statementContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Constant_expressionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$DeclContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$DeclarationContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$DeclarationsContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$DeclaratorContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$DeclaratorsContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$DeclsContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Equality_expressionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Exclusive_or_expressionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$ExpressionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Expression_statementContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Function_definitionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Inclusive_or_expressionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Init_declaratorContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Init_declaratorsContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$InitializerContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Iteration_statementContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Jump_statementContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Logical_and_expressionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Logical_or_expressionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Multiplicative_expressionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$ParametersContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Plain_declarationContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Plain_declaratorContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Postfix_expressionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Primary_expressionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Relational_expressionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Selection_statementContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Shift_expressionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$StatementContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$StatementsContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Struct_declarationsContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Type_nameContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Type_specifierContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser$Unary_expressionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\CParser.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\antlr.bat" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\grun.bat" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\out\production\Ccompiler\Syntactic\run.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\src\Syntactic\C.g4" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\src\Syntactic\C.tokens" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\src\Syntactic\CBaseListener.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\src\Syntactic\CLexer.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\src\Syntactic\CLexer.tokens" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\src\Syntactic\CListener.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\src\Syntactic\CParser.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\src\Syntactic\antlr.bat" afterPath="" />
-      <change type="DELETED" beforePath="D:\compiler\Ccompiler\src\Syntactic\grun.bat" afterPath="" />
+    <list default="true" id="d93f1995-3357-4408-86e7-411a7d3ed516" name="Default" comment="delete syntactic for name changing 2">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ccompiler.iws" />
@@ -92,7 +31,7 @@
       <file leaf-file-name="Semantic.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/semantic/Semantic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19642857">
+            <state vertical-scroll-proportion="0.0">
               <caret line="325" column="26" selection-start-line="325" selection-start-column="26" selection-end-line="325" selection-end-column="26" />
               <folding />
             </state>
@@ -215,6 +154,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,9 +173,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ccompiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ccompiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -514,7 +467,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446281122971</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="delete syntactic for name changing 2">
+      <created>1446281195152</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1446281195152</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -566,7 +525,8 @@
     <MESSAGE value="part of the semantic has been done" />
     <MESSAGE value="part of the semantic has been done 2" />
     <MESSAGE value="delete syntactic for name changing" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete syntactic for name changing" />
+    <MESSAGE value="delete syntactic for name changing 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete syntactic for name changing 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -587,11 +547,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/semantic/Semantic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/absyn/Expr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.148148">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -599,13 +566,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntactic/CLexer.tokens">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntactic/CLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13403417">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntactic/CBaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22339028">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntactic/C.tokens">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntactic/C.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11169514">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntactic/antlr.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/semantic/Semantic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19642857">
+        <state vertical-scroll-proportion="0.0">
           <caret line="325" column="26" selection-start-line="325" selection-start-column="26" selection-end-line="325" selection-end-column="26" />
           <folding />
         </state>
