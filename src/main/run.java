@@ -1,25 +1,13 @@
 package main;
-import Syntactic.CLexer;
-import Syntactic.CParser;
+import syntactic.CLexer;
+import syntactic.CParser;
 import com.google.gson.Gson;
 import org.antlr.v4.runtime.*;
-import org.antlr.v4.runtime.atn.ParserATNSimulator;
-import org.antlr.v4.runtime.atn.PredictionMode;
-import org.antlr.v4.runtime.tree.*;
-import absyn.*;
-import semantic.*;
 import org.antlr.v4.runtime.tree.gui.TreeViewer;
+import absyn.*;
 
-import javax.print.PrintException;
-import javax.swing.*;
-import java.io.*;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
+//import semantic.*;
 
 /**
  * Created by liuzhe on 8/3/2015.
@@ -39,14 +27,14 @@ public class run {
         Decls tree = parser.decls().r; // begin parsing at init rule
         Gson gson = new Gson();
         System.out.println(gson.toJson(tree));
-        Semantic semant = new Semantic();
-        semant.checkProg(tree);
-        if(semant.hasError()) {
-            semant.printErrors();
-        }
-//        TreeViewer viewr = new TreeViewer(Arrays.asList(
-//                parser.getRuleNames()),parsetree);
-//        viewr.open();
+//        Semantic semant = new Semantic();
+//        semant.checkProg(tree);
+//        if(semant.hasError()) {
+//            semant.printErrors();
+//        }
+//       TreeViewer viewr = new TreeViewer(Arrays.asList(
+ //              parser.getRuleNames()),parser.decls());
+ //      viewr.open();
        // System.out.println(tree.toStringTree(parser)); // print LISP-style tree
     }
 }
